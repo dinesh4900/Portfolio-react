@@ -1,0 +1,8 @@
+.topContainer{
+   background: url(../../assets/images/DSC_0038.webp); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}

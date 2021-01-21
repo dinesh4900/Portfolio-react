@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+}
+
+.header__left{
+    flex: 0.4;
+}
+
+.header__left > h1{
+    text-align: center;
+    font-family: "Padauk", sans-serif;
+    letter-spacing: 1px;
+    padding: 16px 0;
+}
+
+.header__left > h1 > span{
+    color: #e74c3c;
+}
+
+.header__right{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.header__right > a > h4{
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    font-family: "Crimson Text", serif;
+}
+
+.header__right > a > h4:hover{
+    transform: scale(1.09);
+    background-color:#e74c3c;
+    color: white;
+    padding: 3px 13px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: "Crimson Text", serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.header__rightbutton{
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 3px 13px;
+    border-radius: 2px;
+    cursor: pointer;
+}
