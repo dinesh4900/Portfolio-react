@@ -5,18 +5,17 @@
     flex-direction: column;
     color: white;
     justify-content: center;
-    margin: 20px 0;
-    
-    align-items: center;
+    margin: 20px 0; 
+    align-items: center !important;
 }
 
-.projectContainer > h1 {
+/* .projectContainer > h1 {
     padding-bottom: 0px;
 }
 
 .projectContainer > p {
     padding-bottom: 0px;
-}
+} */
 
 .projectContainer__projects{
     display: flex;
@@ -24,4 +23,79 @@
     margin-top: 50px;
     flex-wrap: wrap;
     margin-left: 80px;
+}
+
+/* Chat application styling */
+.projectContainer__chatapp{
+    display: flex;
+    margin-top: 40px;
+}
+
+.projectContainer__chatapp > .projectContainer__desc1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 40px;
+}
+
+.projectContainer__chatapp > .projectContainer__chatImg{
+    border-radius: 5px;
+    margin-right: 200px;
+    width: 300px;
+}
+
+/* netflix styling */
+
+.projectContainer__netflix{
+    display: flex;
+    margin-top: 40px;
+}
+
+.projectContainer__netflix > .projectContainer__desc2{
+    display: flex;
+    margin-right: 200px;
+    margin-left: 40px;
+}
+
+.projectContainer__netflix > .projectContainer__netflixImg{
+    border-radius: 5px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+/* Twitter application */
+
+.projectContainer__twitter{
+    display: flex;
+    margin-top: 40px;
+}
+
+.projectContainer__twitter > .projectContainer__desc3{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 40px;
+}
+
+.projectContainer__twitter > .projectContainer__twitterImg{
+    border-radius: 5px;
+    margin-right: 200px;
+    width: 300px;
+}
+
+/* Discord application */
+
+.projectContainer__discord{
+    display: flex;
+    margin-top: 40px;
+}
+
+.projectContainer__discord > .projectContainer__desc4{
+    display: flex;
+    margin-right: 200px;
+    margin-left: 40px;
+}
+
+.projectContainer__discord > .projectContainer__discordImg{
+    border-radius: 5px;
+    margin-left: 200px;
+    width: 300px;
 }

@@ -1,55 +1,77 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import skilling from '../../assets/images/skill.jpeg'
-import './SkillContainer.css'
-import LinearProgress from '@material-ui/core/LinearProgress'
+//import skilling from '../../assets/images/skill.jpeg'
+import './SkillContainer.css';
+import LinearProgress from '@material-ui/core/LinearProgress';
 
 const SkillContainer = () => {
     return (
         <Element className="skillContainer" id="skills">
-            <div className="skillContainer__image">
+            {/* <div className="skillContainer__image">
                 <img src={skilling} alt="img"></img>
-            </div>
+            </div> */}
             <div className="skillContainer__text">
-                <h2>skillsets</h2>
+                <h2>Skillsets</h2>
 
                 <div className="skillContainer__skillset">
-                    <h4>React</h4>
+                    <h4>React JS</h4>
                     <div className="skillContainer__slider skillContainer__slider1">
-                        <LinearProgress variant="determinate" value={90} />
+                        <LinearProgress variant="determinate" value={60} />
                     </div>
                 </div>
 
                 <div className="skillContainer__skillset">
-                    <h4>Node js</h4>
+                    <h4>JAVASCRIPT</h4>
                     <div className="skillContainer__slider skillContainer__slider2">
-                        <LinearProgress variant="determinate" value={75} />
+                        <LinearProgress variant="determinate" value={70} />
                     </div>
-
-                </div><div className="skillContainer__skillset">
-                    <h4>Docker</h4>
+                </div>
+                
+                <div className="skillContainer__skillset">
+                    <h4>FIREBASE</h4>
                     <div className="skillContainer__slider skillContainer__slider3">
+                        <LinearProgress variant="determinate" value={65} />
+                    </div>
+                </div>
+
+                <div className="skillContainer__skillset">
+                    <h4>MATERIAL UI</h4>
+                    <div className="skillContainer__slider skillContainer__slider4">
                         <LinearProgress variant="determinate" value={80} />
                     </div>
                 </div>
 
                 <div className="skillContainer__skillset">
-                    <h4>MONGO DB</h4>
-                    <div className="skillContainer__slider skillContainer__slider4">
+                    <h4>HTML5 & CSS3</h4>
+                    <div className="skillContainer__slider skillContainer__slider5">
                         <LinearProgress variant="determinate" value={85} />
                     </div>
                 </div>
 
-                <div className="skillContainer__skillset">
-                    <h4>GraphQL</h4>
-                    <div className="skillContainer__slider skillContainer__slider5">
-                        <LinearProgress variant="determinate" value={50} />
+                {/* <div className="skill__container">
+                    <div className="skillContainer__image">
+                        <img src={skilling} alt="img"></img>
                     </div>
                 </div>
+
+                <div className="skill__container">
+                    <div className="skillContainer__image">
+                        <img src={skilling} alt="img"></img>
+                    </div>
+                </div>
+                
+                <div className="skill__container">
+                    <div className="skillContainer__image">
+                        <img src={skilling} alt="img"></img>
+                    </div>
+                </div> */}
 
 
 
             </div>
+
+
+
         </Element>
     )
 }

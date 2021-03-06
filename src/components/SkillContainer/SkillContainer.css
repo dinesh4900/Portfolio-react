@@ -22,7 +22,7 @@
 
 }
 
-.skillContainer__image > img{
+/* .skillContainer__image > img{
     width: 500px;
     border-radius: 3px;
     object-fit: contain;
@@ -33,7 +33,7 @@
     text-align: center;
     margin-right: 100px;
 
-}
+} */
 
 .skillContainer__skillset > h4{
     font-family: "Montserrat", sans-serif;
@@ -44,6 +44,7 @@
 
 .skillContainer__slider > .MuiLinearProgress-colorPrimary{
     background-color:rgb(204, 204, 204);
+    border-radius: 6px;
 }
 
 

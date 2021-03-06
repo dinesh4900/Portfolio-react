@@ -18,18 +18,17 @@ const Contact = () => {
                     Github username: <span> king@4900</span>
                 </p>
                 <div className="contact__icons">
-                    <a href="www.google.com">
+                    <a href="https://www.instagram.com/king_._4900/">
                         <IconButton>
                             < InstagramIcon />
                         </IconButton>
                     </a>
 
-                    <a href="www.google.com">
+                    <a href="https://www.linkedin.com/in/m-dinesh-a4b785188/">
                         <IconButton>
                             <LinkedInIcon />
                         </IconButton>
                     </a>
-
 
                 </div>
             </div>

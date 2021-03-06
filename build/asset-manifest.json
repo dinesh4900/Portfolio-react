@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f1c3dbf7.chunk.css",
+    "main.js": "/static/js/main.a5d77e02.chunk.js",
+    "main.js.map": "/static/js/main.a5d77e02.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c6ba6a74.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c6ba6a74.js.map",
+    "static/js/2.1fa1533c.chunk.js": "/static/js/2.1fa1533c.chunk.js",
+    "static/js/2.1fa1533c.chunk.js.map": "/static/js/2.1fa1533c.chunk.js.map",
+    "static/js/3.f8b6fc46.chunk.js": "/static/js/3.f8b6fc46.chunk.js",
+    "static/js/3.f8b6fc46.chunk.js.map": "/static/js/3.f8b6fc46.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f1c3dbf7.chunk.css.map": "/static/css/main.f1c3dbf7.chunk.css.map",
+    "static/js/2.1fa1533c.chunk.js.LICENSE.txt": "/static/js/2.1fa1533c.chunk.js.LICENSE.txt",
+    "static/media/TopContainer.css": "/static/media/DSC_0038.bea5d87f.webp",
+    "static/media/Discord.67eae2a5.jpeg": "/static/media/Discord.67eae2a5.jpeg",
+    "static/media/Twitter.cb989bc3.jpeg": "/static/media/Twitter.cb989bc3.jpeg",
+    "static/media/chatapp.9d3d33f1.jpg": "/static/media/chatapp.9d3d33f1.jpg",
+    "static/media/netflix.dd9d0400.jpg": "/static/media/netflix.dd9d0400.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6ba6a74.js",
+    "static/js/2.1fa1533c.chunk.js",
+    "static/css/main.f1c3dbf7.chunk.css",
+    "static/js/main.a5d77e02.chunk.js"
+  ]
+}

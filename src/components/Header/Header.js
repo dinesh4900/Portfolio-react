@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import './Header.css';
+//import CodeIcon from '@material-ui/icons/Code';
 
 const Header = () => {
     return (
         <div className="header">
              <div className="header__left">
-                 <h1> Develop<span>er</span></h1>
+                 <h1>
+                      Develop<span>er</span></h1>
              </div>
              <div className="header__right">
                 <Link to="about" smooth={true} duration={500}>
@@ -18,9 +20,9 @@ const Header = () => {
                 <Link to="projects" smooth={true} duration={500}>
                     <h4>Projects</h4>
                 </Link>
-                <Link to="exp" smooth={true} duration={500}>
+                {/* <Link to="exp" smooth={true} duration={500}>
                     <h4>Experience</h4>
-                </Link>
+                </Link> */}
                 <Link to="contact" smooth={true} duration={500}>
                     <h4>Contact</h4>
                 </Link>

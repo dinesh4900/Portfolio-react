@@ -18,7 +18,7 @@ const Project = ({img,title,desc,link}) => {
                             <p>{desc}</p>
                         </div>
                     ) : (
-                        <img src={img} alt="" />
+                        <img src={img} alt="project" />
                     )
                 }
 

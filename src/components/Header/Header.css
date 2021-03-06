@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
-.header{
+/* .header{
     display: flex;
     align-items: center;
     background-color: black;
@@ -10,8 +10,24 @@
     top: 0;
     position: sticky;
     z-index: 2000;
-}
+} */
 
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    /* padding: 0; */
+    color: white;
+    background-color: black;
+    z-index: 10000;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    
+}
 .header__left{
     flex: 0.4;
 }
@@ -35,7 +51,7 @@
 }
 
 .header__right > a > h4{
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
     transition: transform 200ms ease-in-out;
     font-family: "Crimson Text", serif;
